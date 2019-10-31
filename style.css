@@ -1,0 +1,61 @@
+.ct-icon-boxes .ct-icon-box {
+    padding-top: 8px;
+    width: 50%;
+    float: left;
+    position: relative;
+    border: 2px solid #ccc;
+    min-height: 267px;
+    display: inline-table;
+    text-align: center;
+    color: #292929;
+    margin-bottom: -2px;
+    cursor: pointer;
+  }
+  
+  .ct-icon-box:hover {
+    background: #d60e96;
+    color: #fff;
+  }
+  
+  .ct-icon-boxes {
+    margin: 65px auto;
+    max-width: 525px;
+    overflow: auto;
+    clear: both;
+  }
+  
+  .ct-icon-boxes .ct-icon-box__header {
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  
+  section h3 {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  
+  .ct-icon-boxes .ct-icon-box.bottom-all {
+    width: 99.5%;
+    min-height: 250px;
+    margin-bottom: 2px;
+  }
+  
+  @media only screen and (min-width: 480px) {
+  
+    .ct-icon-boxes .ct-icon-box.top-right,
+    .ct-icon-boxes .ct-icon-box.bottom-right {
+      margin-left: -2px;
+    }
+  }
+  
+  .ct-icon-boxes .ct-icon-box > .ct-icon-boxes .ct-icon-box__inner,
+  .ct-icon-boxes .ct-icon-box > .inner {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+  }
+
+  .container {
+    margin: 0 auto;
+  }
+  
